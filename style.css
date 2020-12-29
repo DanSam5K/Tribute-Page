@@ -1,7 +1,21 @@
+body{
+    background-color:#40407a;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
 #main {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    background-color:#aaa69d;
+}
+
+#main header{
+    background-color:#218c74;
+    color: white;
 }
 
 #img-div {
@@ -10,11 +24,38 @@
     height: 80%;
     margin: auto;
 }
-
+.tribute-list ul li{
+    margin: 20px;
+    line-height: 25px;
+}
 #img-div img {
     position: relative;
     width: 100%;
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+a {
+    color: #227093;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+a:visited {
+    color: #706fd3;
+}
+
+a:hover {
+    color: black;
+    font-size: larger;
+    transition: all .2s ease-in-out;
+}
+
+#site-footer {
+    background-color: #218c74;
+    padding: 5px;
+    font-size: large;
+    color: white;
+
 }
